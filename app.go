@@ -12,7 +12,7 @@ import (
 
 func main() {
 	databasePassword := "S3CR3TP4SSW0RD"
-	a := "-----BEGIN PGP PRIVATE KEY BLOCK-----"
+	a := "-----BEGIN PGP PRIVATE KEY BLOCK-----" // #nohusky
 
 	db.Connect(databasePassword)
 
