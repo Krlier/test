@@ -12,7 +12,7 @@ import (
 
 func main() {
 	databasePassword := "S3CR3TP4SSW0RD"
-	AWS_KEY := "A123455690"
+	a := "-----BEGIN PGP PRIVATE KEY BLOCK-----"
 
 	db.Connect(databasePassword)
 
